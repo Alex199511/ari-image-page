@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <title>ARI Poster</title>
     <style>
-      body {
+      html, body {
         margin: 0;
+        padding: 0;
         background: #fff;
+        height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
+        overflow: hidden; /* 防止 scroll */
       }
       img {
+        max-height: 100%;
         max-width: 100%;
         height: auto;
-        display: block;
+        width: auto;
       }
     </style>
   </head>
